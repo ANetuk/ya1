@@ -114,3 +114,5 @@ const handleCommand = (command: Command) => {
     {name: 'move' as const, payload: 50},
     {name: 'stop' as const}
 ].forEach(handleCommand);
+
+console.log(getCurrentFullState());
